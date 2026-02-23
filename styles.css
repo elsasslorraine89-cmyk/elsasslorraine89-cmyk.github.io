@@ -1,0 +1,55 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Base styles */
+body {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+    line-height: 1.6;
+    color: #111;
+    background-color: #fff;
+}
+
+/* Layout */
+main {
+    max-width: 720px;
+    margin: 0 auto;
+    padding: 4rem 1.5rem;
+}
+
+/* Hero */
+.hero {
+    margin-bottom: 4rem;
+}
+
+.hero h1 {
+    font-size: 2.5rem;
+    font-weight: 600;
+}
+
+.tagline {
+    margin-top: 1rem;
+    font-size: 1.2rem;
+    color: #444;
+}
+
+/* About */
+.about h2 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.about p {
+    color: #333;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 2rem 1rem;
+    font-size: 0.9rem;
+    color: #666;
+}
